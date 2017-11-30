@@ -1,4 +1,4 @@
-package com.guanpj.designpattern.chapter4.pizzas;
+package com.guanpj.designpattern.chapter4.simplefactory;
 
 public class CheesePizza extends Pizza {
     public CheesePizza() {

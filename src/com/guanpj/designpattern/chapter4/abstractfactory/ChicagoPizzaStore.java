@@ -1,0 +1,25 @@
+package com.guanpj.designpattern.chapter4.abstractfactory;
+
+import com.guanpj.designpattern.chapter4.abstractfactory.pizza.CheesePizza;
+import com.guanpj.designpattern.chapter4.abstractfactory.pizza.ClamPizza;
+import com.guanpj.designpattern.chapter4.abstractfactory.pizza.VeggiePizza;
+
+public class ChicagoPizzaStore extends PizzaStore {
+    protected Pizza createPizza(String item) {
+        Pizza pizza = null;
+        PizzaIngredientFactory ingredientFactory =
+                new ChicagoPizzaIngredientFactory();
+
+        if (item.equals("cheese")) {
+            pizza = new CheesePizza(ingredientFactory);
+            pizza.setName("Chicago Style Cheese Pizza");
+        } else if (item.equals("veggie")) {
+            pizza = new VeggiePizza(ingredientFactory);
+            pizza.setName("Chicago Style Veggie Pizza");
+        } else if (item.equals("clam")) {
+            pizza = new ClamPizza(ingredientFactory);
+            pizza.setName("Chicago Style Clam Pizza");
+        }
+        return pizza;
+    }
+}
