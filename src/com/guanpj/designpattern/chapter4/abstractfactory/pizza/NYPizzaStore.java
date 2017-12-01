@@ -1,8 +1,4 @@
-package com.guanpj.designpattern.chapter4.abstractfactory;
-
-import com.guanpj.designpattern.chapter4.abstractfactory.pizza.CheesePizza;
-import com.guanpj.designpattern.chapter4.abstractfactory.pizza.ClamPizza;
-import com.guanpj.designpattern.chapter4.abstractfactory.pizza.VeggiePizza;
+package com.guanpj.designpattern.chapter4.abstractfactory.pizza;
 
 public class NYPizzaStore extends PizzaStore {
 

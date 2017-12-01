@@ -1,8 +1,5 @@
 package com.guanpj.designpattern.chapter4.abstractfactory.pizza;
 
-import com.guanpj.designpattern.chapter4.abstractfactory.Pizza;
-import com.guanpj.designpattern.chapter4.abstractfactory.PizzaIngredientFactory;
-
 public class CheesePizza extends Pizza{
     PizzaIngredientFactory ingredientFactory;
 

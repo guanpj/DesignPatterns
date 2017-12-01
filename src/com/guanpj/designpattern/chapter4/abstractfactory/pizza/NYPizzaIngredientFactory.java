@@ -1,4 +1,4 @@
-package com.guanpj.designpattern.chapter4.abstractfactory;
+package com.guanpj.designpattern.chapter4.abstractfactory.pizza;
 
 import com.guanpj.designpattern.chapter4.abstractfactory.material.cheese.Cheeses;
 import com.guanpj.designpattern.chapter4.abstractfactory.material.cheese.ReggianoCheese;

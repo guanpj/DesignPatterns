@@ -1,8 +1,5 @@
 package com.guanpj.designpattern.chapter4.abstractfactory.pizza;
 
-import com.guanpj.designpattern.chapter4.abstractfactory.Pizza;
-import com.guanpj.designpattern.chapter4.abstractfactory.PizzaIngredientFactory;
-
 public class ClamPizza extends Pizza {
     PizzaIngredientFactory ingredientFactory;
 
