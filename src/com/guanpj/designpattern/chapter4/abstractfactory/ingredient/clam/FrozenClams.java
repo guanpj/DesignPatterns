@@ -1,4 +1,4 @@
-package com.guanpj.designpattern.chapter4.abstractfactory.material.clam;
+package com.guanpj.designpattern.chapter4.abstractfactory.ingredient.clam;
 
 public class FrozenClams implements Clams {
     @Override

@@ -1,12 +1,12 @@
 package com.guanpj.designpattern.chapter4.abstractfactory.pizza;
 
-import com.guanpj.designpattern.chapter4.abstractfactory.material.cheese.Cheeses;
-import com.guanpj.designpattern.chapter4.abstractfactory.material.cheese.ReggianoCheese;
-import com.guanpj.designpattern.chapter4.abstractfactory.material.clam.Clams;
-import com.guanpj.designpattern.chapter4.abstractfactory.material.clam.FreshClams;
-import com.guanpj.designpattern.chapter4.abstractfactory.material.veggie.Garlic;
-import com.guanpj.designpattern.chapter4.abstractfactory.material.veggie.Onion;
-import com.guanpj.designpattern.chapter4.abstractfactory.material.veggie.Veggies;
+import com.guanpj.designpattern.chapter4.abstractfactory.ingredient.cheese.Cheeses;
+import com.guanpj.designpattern.chapter4.abstractfactory.ingredient.cheese.ReggianoCheese;
+import com.guanpj.designpattern.chapter4.abstractfactory.ingredient.clam.Clams;
+import com.guanpj.designpattern.chapter4.abstractfactory.ingredient.clam.FreshClams;
+import com.guanpj.designpattern.chapter4.abstractfactory.ingredient.veggie.Garlic;
+import com.guanpj.designpattern.chapter4.abstractfactory.ingredient.veggie.Onion;
+import com.guanpj.designpattern.chapter4.abstractfactory.ingredient.veggie.Veggies;
 
 public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
     @Override

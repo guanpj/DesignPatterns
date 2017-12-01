@@ -1,4 +1,4 @@
-package com.guanpj.designpattern.chapter4.abstractfactory.material.cheese;
+package com.guanpj.designpattern.chapter4.abstractfactory.ingredient.cheese;
 
 public class ReggianoCheese implements Cheeses {
     @Override

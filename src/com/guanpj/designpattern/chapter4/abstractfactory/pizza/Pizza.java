@@ -1,8 +1,8 @@
 package com.guanpj.designpattern.chapter4.abstractfactory.pizza;
 
-import com.guanpj.designpattern.chapter4.abstractfactory.material.cheese.Cheeses;
-import com.guanpj.designpattern.chapter4.abstractfactory.material.clam.Clams;
-import com.guanpj.designpattern.chapter4.abstractfactory.material.veggie.Veggies;
+import com.guanpj.designpattern.chapter4.abstractfactory.ingredient.cheese.Cheeses;
+import com.guanpj.designpattern.chapter4.abstractfactory.ingredient.clam.Clams;
+import com.guanpj.designpattern.chapter4.abstractfactory.ingredient.veggie.Veggies;
 
 public abstract class Pizza {
     protected String name;

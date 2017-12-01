@@ -1,4 +1,4 @@
-package com.guanpj.designpattern.chapter4.abstractfactory.material.veggie;
+package com.guanpj.designpattern.chapter4.abstractfactory.ingredient.veggie;
 
 public class Garlic implements Veggies {
     @Override

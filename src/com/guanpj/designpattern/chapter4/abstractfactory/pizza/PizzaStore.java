@@ -1,7 +1,5 @@
 package com.guanpj.designpattern.chapter4.abstractfactory.pizza;
 
-import com.guanpj.designpattern.chapter4.abstractfactory.pizza.Pizza;
-
 public abstract class PizzaStore {
 
     protected abstract Pizza createPizza(String item);
